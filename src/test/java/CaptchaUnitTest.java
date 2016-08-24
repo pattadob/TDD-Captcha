@@ -32,21 +32,9 @@ public class CaptchaUnitTest {
     }
 
     @Test
-    public void operatorShouldBePlus() {
+    public void operatorShouldBeInstanceOfOperator(){
         Captcha captcha = new Captcha(DUMMY_PATTERN, DUMMY_LEFT, 1, DUMMY_RIGHT);
-        assertEquals("+", captcha.getOperator());
-    }
-
-    @Test
-    public void operatorShouldBeMultiply() {
-        Captcha captcha = new Captcha(DUMMY_PATTERN, DUMMY_LEFT, 2, DUMMY_RIGHT);
-        assertEquals("x", captcha.getOperator());
-    }
-
-    @Test
-    public void operatorShouldBeMinus() {
-        Captcha captcha = new Captcha(DUMMY_PATTERN, DUMMY_LEFT, 3, DUMMY_RIGHT);
-        assertEquals("-", captcha.getOperator());
+        assertTrue(captcha.getOperator()instanceof Operator);
     }
 
     @Test

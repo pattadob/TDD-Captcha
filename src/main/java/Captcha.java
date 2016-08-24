@@ -1,14 +1,14 @@
 public class Captcha {
 
     private int left;
-    private int operator;
+    private Operator operator;
     private int right;
     private int pattern;
     private String[] numberText = {"ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"};
 
     public Captcha(int pattern, int left, int operator, int right) {
         this.left = left;
-        this.operator = operator;
+        this.operator = new Operator(operator);
         this.right = right;
         this.pattern = pattern;
     }
@@ -22,9 +22,8 @@ public class Captcha {
         }
     }
 
-    public String getOperator() {
-        String[] operatorText = {"+", "x", "-"};
-        return operatorText[this.operator - 1];
+    public Operator getOperator(){
+        return operator;
     }
 
     public String getRight() {
