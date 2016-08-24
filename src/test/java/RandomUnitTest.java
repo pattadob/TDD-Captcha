@@ -19,6 +19,7 @@ public class RandomUnitTest {
         // how many times it's called  -- only 1
 
     }
+
     @Test
     public void operatorShouldBeCalledOnce(){
         Randomizer randomizer = new Randomizer();
@@ -40,9 +41,6 @@ public class RandomUnitTest {
         // how many times it's called  -- only 1
 
     }
-
-
-
 
     public class MyRandom extends Random {
         int calls = 0;
