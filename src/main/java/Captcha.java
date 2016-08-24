@@ -7,17 +7,8 @@ public class Captcha {
     private String[] numberText = {"ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"};
 
     public Captcha(int pattern, int left, int operator, int right) {
-        if (pattern == 1){
-            //String
-            this.leftOperand = new StringOperand(left);
-            //Number
-            this.rightOperand = new NumberOperand(right);
-        }else {
-            //Number
-            this.leftOperand = new NumberOperand(left);
-            //String
-            this.rightOperand = new StringOperand(right);
-        }
+        this.leftOperand = OperandFactory.getOperand(pattern, left, Side.LEFT);
+        this.rightOperand = OperandFactory.getOperand(pattern, right, Side.RIGHT);
         this.operator = new Operator(operator);
         this.pattern = pattern;
     }
