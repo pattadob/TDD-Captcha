@@ -1,4 +1,4 @@
-public class NumberOperand {
+public class NumberOperand extends Operand {
     private int number;
 
     public NumberOperand(int number) {

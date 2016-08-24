@@ -14,22 +14,17 @@ public class CaptchaUnitTest {
     public static final int DUMMY_PATTERN = 1;
 
     @Test
-    public void leftShouldBeONE() {
-        Captcha captcha = new Captcha(1, 1, DUMMY_OPERATOR, DUMMY_RIGHT);
-        assertEquals("ONE", captcha.getLeft());
+    public void operandLeftShouldBeInstanceOfStringOperand(){
+        Captcha captcha = new Captcha(1, DUMMY_LEFT, DUMMY_OPERATOR, DUMMY_RIGHT);
+        assertTrue(captcha.getLeft() instanceof StringOperand);
     }
 
     @Test
-    public void leftShouldBeNINE() {
-        Captcha captcha = new Captcha(1, 9, DUMMY_OPERATOR, DUMMY_RIGHT);
-        assertEquals("NINE", captcha.getLeft());
+    public void operandLeftShouldBeInstanceOfNumberOperand(){
+        Captcha captcha = new Captcha(2, DUMMY_LEFT, DUMMY_OPERATOR, DUMMY_RIGHT);
+        assertTrue(captcha.getLeft() instanceof NumberOperand);
     }
 
-    @Test
-    public void leftShouldBeFIVE() {
-        Captcha captcha = new Captcha(1, 5, DUMMY_OPERATOR, DUMMY_RIGHT);
-        assertEquals("FIVE", captcha.getLeft());
-    }
 
     @Test
     public void operatorShouldBeInstanceOfOperator(){
@@ -38,51 +33,15 @@ public class CaptchaUnitTest {
     }
 
     @Test
-    public void rightShouldBe1() {
-        Captcha captcha = new Captcha(1, DUMMY_LEFT, DUMMY_OPERATOR, 1);
-        assertEquals("1", captcha.getRight());
+    public void operandRightShouldBeInstanceOfStringOperand(){
+        Captcha captcha = new Captcha(2, DUMMY_LEFT, DUMMY_OPERATOR, DUMMY_RIGHT);
+        assertTrue(captcha.getRight() instanceof StringOperand);
     }
 
     @Test
-    public void rightShouldBe9(){
-        Captcha captcha = new Captcha(1, DUMMY_LEFT, DUMMY_OPERATOR, 9);
-        assertEquals("9", captcha.getRight());
-    }
-
-    @Test
-    public void rightShouldBe5(){
-        Captcha captcha = new Captcha(1, DUMMY_LEFT, DUMMY_OPERATOR, 5);
-        assertEquals("5", captcha.getRight());
-    }
-
-    @Test
-    public void leftShouldBe1() {
-        Captcha captcha = new Captcha(2, 1, DUMMY_OPERATOR, DUMMY_RIGHT);
-        assertEquals("1", captcha.getLeft());
-    }
-
-    @Test
-    public void leftShouldBe9() {
-        Captcha captcha = new Captcha(2, 9, DUMMY_OPERATOR, DUMMY_RIGHT);
-        assertEquals("9", captcha.getLeft());
-    }
-
-    @Test
-    public void leftShouldBe7() {
-        Captcha captcha = new Captcha(2, 7, DUMMY_OPERATOR, DUMMY_RIGHT);
-        assertEquals("7", captcha.getLeft());
-    }
-
-    @Test
-    public void rightShouldBeONE(){
-        Captcha captcha = new Captcha(2,DUMMY_LEFT,DUMMY_OPERATOR,1);
-        assertEquals("ONE",captcha.getRight());
-    }
-
-    @Test
-    public void rightShouldBeNINE(){
-        Captcha captcha = new Captcha(2,DUMMY_LEFT, DUMMY_OPERATOR, 9);
-        assertEquals("NINE", captcha.getRight());
+    public void operandRightShouldBeInstanceOfNumberOperand(){
+        Captcha captcha = new Captcha(1, DUMMY_LEFT, DUMMY_OPERATOR, DUMMY_RIGHT);
+        assertTrue(captcha.getRight() instanceof NumberOperand);
     }
 
     @Test

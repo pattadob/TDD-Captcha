@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by cadet on 8/24/2016 AD.
  */
-public class StringOperand {
+public class StringOperand extends Operand{
     private String[] numberText = {"ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"};
     private int index;
 
