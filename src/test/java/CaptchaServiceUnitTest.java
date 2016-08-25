@@ -2,13 +2,10 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-/**
- * Created by cadet on 8/24/2016 AD.
- */
 public class CaptchaServiceUnitTest {
 
     @Test
-    public void shouldReturnCaptcha(){
+    public void shouldReturnCaptcha() {
         CaptchaService captchaService = new CaptchaService();
         MyRandomizer myRandomizer = new MyRandomizer();
         captchaService.setRandomizer(myRandomizer);
@@ -18,7 +15,7 @@ public class CaptchaServiceUnitTest {
         assertEquals(2, myRandomizer.callOperand);
     }
 
-    public class MyRandomizer extends Randomizer{
+    public class MyRandomizer extends Randomizer {
         public int callPattern = 0;
         public int callOperator = 0;
         public int callOperand = 0;

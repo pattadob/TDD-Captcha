@@ -5,7 +5,7 @@ import static junit.framework.TestCase.assertEquals;
 public class OperatorUnitTest {
 
     @Test
-    public void operatorShouldBePlus(){
+    public void operatorShouldBePlus() {
         Operator operator = new Operator(1);
         assertEquals("+", operator.toString());
     }

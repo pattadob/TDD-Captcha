@@ -4,9 +4,6 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Created by khan on 8/24/2016 AD.
- */
 public class CaptchaUnitTest {
     public static final int DUMMY_OPERATOR = 1;
     public static final int DUMMY_RIGHT = 1;

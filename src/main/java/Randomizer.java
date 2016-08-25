@@ -1,5 +1,6 @@
 
 import java.util.Random;
+
 public class Randomizer {
 
     public Random random;
@@ -8,14 +9,15 @@ public class Randomizer {
         this.random = random;
     }
 
-    public int getPattern(){
+    public int getPattern() {
         return random.nextInt(2);
     }
 
-    public int getOperator(){
+    public int getOperator() {
         return random.nextInt(3);
     }
-    public int getOperand(){
+
+    public int getOperand() {
         return random.nextInt(9);
     }
 }

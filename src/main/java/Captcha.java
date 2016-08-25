@@ -17,7 +17,7 @@ public class Captcha {
         return this.leftOperand;
     }
 
-    public Operator getOperator(){
+    public Operator getOperator() {
         return operator;
     }
 
