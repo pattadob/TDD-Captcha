@@ -1,5 +1,5 @@
 
-public class CaptchaService {
+public class CaptchaService implements CaptchaServiceInterface {
 
     public Randomizer randomizer;
 

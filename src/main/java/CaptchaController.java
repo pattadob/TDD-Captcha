@@ -3,9 +3,9 @@
  */
 public class CaptchaController {
 
-    private CaptchaService captchaService;
+    private CaptchaServiceInterface captchaService;
 
-    public void setCaptchaService(CaptchaService captchaService) {
+    public void setCaptchaService(CaptchaServiceInterface captchaService) {
         this.captchaService = captchaService;
     }
 

@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e91bbd4b-95a6-4640-8205-89253d8fc740" name="Default" comment="Commit after test with CaptchaService class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CaptchaController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Fizzbuzz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CaptchaControllerUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/FizzbuzzUnitTest.java" />
+    <list default="true" id="e91bbd4b-95a6-4640-8205-89253d8fc740" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CaptchaServiceInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Captcha.java" afterPath="$PROJECT_DIR$/src/main/java/Captcha.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CaptchaController.java" afterPath="$PROJECT_DIR$/src/main/java/CaptchaController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CaptchaService.java" afterPath="$PROJECT_DIR$/src/main/java/CaptchaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OperandFactory.java" afterPath="$PROJECT_DIR$/src/main/java/OperandFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Randomizer.java" afterPath="$PROJECT_DIR$/src/main/java/Randomizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Side.java" afterPath="$PROJECT_DIR$/src/main/java/Side.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CaptchaServiceUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/CaptchaServiceUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CaptchaUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/CaptchaUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/OperatorUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/OperatorUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RandomUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/RandomUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CaptchaControllerUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/CaptchaControllerUnitTest.java" />
     </list>
     <ignored path="Chaptcha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,19 +30,23 @@
       <file leaf-file-name="CaptchaControllerUnitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaControllerUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaServiceInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaServiceInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,11 +54,11 @@
       <file leaf-file-name="CaptchaController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +67,8 @@
       <file leaf-file-name="CaptchaService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="15">
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -86,6 +81,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -110,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/test/java/CaptchaService.java" />
         <option value="$PROJECT_DIR$/src/test/java/CaptchaUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Randomizer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CaptchaService.java" />
         <option value="$PROJECT_DIR$/src/test/java/CaptchaServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Captcha.java" />
         <option value="$PROJECT_DIR$/src/main/java/Side.java" />
@@ -120,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzbuzzUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Fizzbuzz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CaptchaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CaptchaServiceInterface.java" />
         <option value="$PROJECT_DIR$/src/test/java/CaptchaControllerUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaptchaController.java" />
       </list>
@@ -693,11 +690,21 @@
       <option name="project" value="LOCAL" />
       <updated>1472032563925</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- Create Fizzbuzz&#10;- Create CaptchaController">
+      <created>1472095724196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1472095724196</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="CaptchaControllerUnitTest - 2016.08.25 at 10h 28m 00s.xml">
+      <configuration name="CaptchaControllerUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaptchaControllerUnitTest - 2016.08.25 at 10h 48m 25s.xml">
       <configuration name="CaptchaControllerUnitTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CaptchaControllerUnitTest_generateCaptchaShouldBeCalledOnce - 2016.08.25 at 10h 16m 44s.xml">
@@ -724,9 +731,6 @@
     <history-entry file="FizzbuzzUnitTest_countShouldBe16 - 2016.08.25 at 09h 53m 51s.xml">
       <configuration name="FizzbuzzUnitTest.countShouldBe16" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzbuzzUnitTest_countShouldBe7 - 2016.08.25 at 09h 49m 15s.xml">
-      <configuration name="FizzbuzzUnitTest.countShouldBe7" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1008" extended-state="6" />
@@ -734,13 +738,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.41927084" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.41770834" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3855165" sideWeight="0.57916665" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920128" sideWeight="0.5807292" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3855165" sideWeight="0.42083332" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920128" sideWeight="0.41927084" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,7 +783,8 @@
     <MESSAGE value="Commit after test with Randommizer class" />
     <MESSAGE value="Commit after refector with Randommizer class" />
     <MESSAGE value="Commit after test with CaptchaService class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit after test with CaptchaService class" />
+    <MESSAGE value="- Create Fizzbuzz&#10;- Create CaptchaController" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Create Fizzbuzz&#10;- Create CaptchaController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -961,37 +966,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="15">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaControllerUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
           </folding>
         </state>
       </provider>
